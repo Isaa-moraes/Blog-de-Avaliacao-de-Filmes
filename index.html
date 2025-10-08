@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crítica Cinéfica: Jurassic World: O Mundo dos Dinossauros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="#" class="logo" aria-label="Criticando Filmes — Home">
+        <div class="badge">CC</div>
+      <div>
+        <div class="title">Crítica Cinéfica</div>
+        <div class="subtitle">Resenhas, notas e opiniões</div>
+      </div>
+      </a>
+      <nav role="navigation" aria-label="Menu principal" class="nav">
+        <div class="nav-links" id="navLinks">
+          <a href="#" class="active" aria-current="page">Home</a>
+          <a href="#">Avaliações</a>
+          <a href="#">Sobre</a>
+        </div>
+      </nav>
+
+      <div class="actions">
+        <div class="search" role="search" aria-label="Buscar filmes">
+          <input type="search" placeholder="Buscar..." aria-label="Buscar"/>
+        </div>
+        <button class="btn" title="Adicionar avaliação">+ Avaliar</button>
+        <button class="hamburger" id="hambtn" aria-label="Abrir menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="detalhes">
+    <img src="logo.webp" alt="logo">
+  </div>
+
+  <main>
+    <section class="hero">
+      <h1>Jurassic World: O Mundo dos Dinossauros</h1>
+      <div class="sinopse">
+        <div class="info-top">
+          <span class="classificacao">12</span>
+          <span class="duracao-categoria">2h 7min | Ação - Aventura - Ficção científica | 2015</span>
+        </div>
+        <p><strong>Diretor:</strong> Colin Trevorrow</p>
+        <p><strong>Sinopse:</strong> O Parque dos Dinossauros está aberto para visitação, e o público tem a chance de ver de perto as mais diversas espécies. No entanto, um desses animais, resultado de experiência genética, desenvolve alta inteligência e se torna uma ameaça para todos.</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="carousel">
+    <input type="radio" name="slide" id="slide1" checked>
+    <input type="radio" name="slide" id="slide2"> 
+    <input type="radio" name="slide" id="slide3">
+
+    <div class="slides">
+      <div class="slide">
+        <img src="img1.jpg" alt="imagem 1">
+      </div>
+      <div class="slide">
+        <img src="img2.jpg" alt="imagem 2">
+      </div>
+      <div class="slide">
+        <img src="img3.jpg" alt="imagem 3">
+      </div>
+    </div>
+
+    <div class="arrows">
+      <label for="slide3" class="arrow prev prev-1">&#10094;</label>
+      <label for="slide2" class="arrow next next-1">&#10095;</label>
+
+      <label for="slide1" class="arrow prev prev-2">&#10094;</label> 
+      <label for="slide3" class="arrow next next-2">&#10095;</label>
+
+      <label for="slide2" class="arrow prev prev-3">&#10094;</label> 
+      <label for="slide1" class="arrow next next-3">&#10095;</label>
+    </div>
+
+    <div class="navegacao">
+      <label for="slide1" class="nav-btn"></label> 
+      <label for="slide2" class="nav-btn"></label> 
+      <label for="slide3" class="nav-btn"></label>
+    </div>
+  </div>
+
+  <section class="onde-assistir">
+    <h2>Onde posso assistir?</h2> 
+    <div class="plataformas">
+
+      <div class="plataforma">
+        <img src="telecineicon.png" alt="Telecine">
+        <div class="info"> 
+          <h3>Telecine</h3> 
+          <p>Assinatura</p> 
+        </div>
+        <a href="#" class="btn-assistir">Assistir</a>
+      </div>
+
+      <div class="plataforma">
+        <img src="primevideo.png" alt="Prime Video">
+        <div class="info"> 
+          <h3>Prime Video</h3> 
+          <p>Assinatura</p> 
+        </div>
+        <a href="#" class="btn-assistir">Assistir</a>
+      </div>
+
+      <div class="plataforma">
+        <img src="youtube.png" alt="YouTube">
+        <div class="info"> 
+          <h3>YouTube</h3> 
+          <p>A partir de R$ 6,90</p> 
+        </div>
+        <a href="#" class="btn-assistir">Assistir</a>
+      </div>
+
+      <div class="plataforma">
+        <img src="googleplay.png" alt="Google Play">
+        <div class="info"> 
+          <h3>Google Play</h3> 
+          <p>A partir de R$ 6,90</p> 
+        </div>
+        <a href="#" class="btn-assistir">Assistir</a>
+      </div>
+
+      <div class="plataforma">
+        <img src="appletv.png" alt="Apple TV">
+        <div class="info"> 
+          <h3>Apple TV</h3> 
+          <p>A partir de R$ 9,90</p> 
+        </div>
+        <a href="#" class="btn-assistir">Assistir</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="comentarios">
+    <h2>Comentários dos usuários</h2>
+    <div class="comentario">
+      <h4>Mariana Alves</h4>
+      <p>Adorei o filme! A ação é incrível e os efeitos estão de outro nível 🔥</p>
+      <span class="data">Postado em 06/10/2025</span>
+    </div>
+
+    <div class="comentario">
+      <h4>João Pedro</h4>
+      <p>O roteiro é um pouco previsível, mas o Chris Pratt mandou muito bem!</p>
+      <span class="data">Postado em 05/10/2025</span>
+    </div>
+  </section>
+
+  <section class="avaliacao">
+    <h2>Deixe sua avaliação</h2>
+    <form class="form-avaliacao">
+      <label for="nome">Seu nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+      <label for="nota" class="nota">Sua nota:</label>
+      <div class="estrelas">
+        <input type="radio" id="estrela5" name="nota" value="5"><label for="estrela5">★</label>
+        <input type="radio" id="estrela4" name="nota" value="4"><label for="estrela4">★</label> 
+        <input type="radio" id="estrela3" name="nota" value="3"><label for="estrela3">★</label>
+        <input type="radio" id="estrela2" name="nota" value="2"><label for="estrela2">★</label> 
+        <input type="radio" id="estrela1" name="nota" value="1"><label for="estrela1">★</label>
+      </div>
+      <label for="comentario">Comentário:</label>
+      <textarea id="comentario" name="comentario" rows="4" placeholder="Escreva o que achou do filme..." required></textarea>
+      <button type="submit">Enviar avaliação</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <h3>CineCrítica 🎬</h3>
+      <p>Compartilhando opiniões sinceras sobre o mundo do cinema.</p>
+
+      <ul class="socials"> 
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li> 
+        <li><a href="#">YouTube</a></li> 
+      </ul>
+
+      <p class="copyright">
+        &copy; 2025 CineCrítica. Todos os direitos reservados.<br>
+        Desenvolvido por <span class="author">Isadora Moraes</span>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
